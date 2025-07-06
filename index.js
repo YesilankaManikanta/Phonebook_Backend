@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors())
 
-// database connection 
+// mongodb database connection 
 
 async function connectToDatabase() {
     try {
