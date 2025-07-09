@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors())
 
-// mongodb database connection  change mail
+// mongodb database connection with nodejs
 
 
 async function connectToDatabase() {
